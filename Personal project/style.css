@@ -60,4 +60,10 @@ font-size: 20px;
     line-height: 30px;
     letter-spacing: 1.2px;
 }
- 
+.about_section h3{
+    margin-left: 50px;
+}
+ul li{
+    margin-left: 90px;
+    font-size: 150%;
+}
