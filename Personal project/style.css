@@ -9,7 +9,7 @@
     background-color: background #bdd7db;
 background: linear-gradient(90deg, rgba(189, 215, 219, 1) 0%, rgba(109, 143, 125, 1) 17%, rgba(227, 211, 86, 1) 30%);;
     min-height: 100vh;
-    border: 10px solid black
+    border: 10px solid rgb(158, 75, 26)
 }
  .content{
     max-width: 900px;
@@ -66,4 +66,10 @@ font-size: 20px;
 ul li{
     margin-left: 90px;
     font-size: 150%;
+}
+footer{
+    margin: 50px 0;
+}
+footer p{
+    text-align: end;
 }
