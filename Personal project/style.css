@@ -3,13 +3,8 @@
  padding: 0;
  box-sizing: border-box;
 }
-
-
 .container{
-    background-color: background #bdd7db;
-background: linear-gradient(90deg, rgba(189, 215, 219, 1) 0%, rgba(109, 143, 125, 1) 17%, rgba(227, 211, 86, 1) 30%);;
-    min-height: 100vh;
-    border: 10px solid rgb(158, 75, 26)
+     border: 10px solid rgb(26, 94, 158)
 }
  .content{
     max-width: 900px;
@@ -27,18 +22,14 @@ font-weight: bold;
 text-transform: uppercase;
 }
 .top_section h4{
-
  text-align: end;
-
 }
-
 .image_container{
-    border-radius: 25%;
+    border-radius: 20%;
     overflow: hidden;
 }
-
-
 .image_container,img{
+    border : black;
     width: 300px;
     height: 280px;
 }
@@ -73,3 +64,11 @@ footer{
 footer p{
     text-align: end;
 }
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+     background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ 
