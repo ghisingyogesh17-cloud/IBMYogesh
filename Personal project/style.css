@@ -4,7 +4,8 @@
  box-sizing: border-box;
 }
 .container{
-     border: 10px solid rgb(26, 94, 158)
+    border: 10px solid 
+    black
 }
  .content{
     max-width: 900px;
@@ -25,8 +26,9 @@ text-transform: uppercase;
  text-align: end;
 }
 .image_container{
-    border-radius: 20%;
-    overflow: hidden;
+    border-radius: 30%;
+   display: flex;
+   justify-content: space-between;
 }
 .image_container,img{
     border : black;
@@ -59,16 +61,23 @@ ul li{
     font-size: 150%;
 }
 footer{
+    font-size: 23px;
     margin: 50px 0;
 }
 footer p{
     text-align: end;
 }
 body {
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-     background-position: center;
+    background-image: url(Images/mar_tyrs.jpg);
+    background-repeat:  no-repeat;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
+ 
 }
+ol{ 
+    font-size: 20px;
+    font-weight: bold;
+}
+
  
