@@ -1,85 +1,143 @@
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    border: 10px solid 
-    black
-}
- .content{
-    max-width: 900px;
-    margin: 0 auto;
- }
-.top_section{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end ;
-}
-.top_section h1{
-font-size: 50px;
-font-weight: bold;
-text-transform: uppercase;
-}
-.top_section h4{
- text-align: end;
-}
-.image_container{
-    border-radius: 30%;
-   display: flex;
-   justify-content: space-between;
-}
-.image_container,img{
-    border : black;
-    width: 300px;
-    height: 280px;
-}
-.about_section{
-    margin-top: 50px;
-}
-.about_section h2{
-    font-size: 45px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.about_section p{
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 1.2px;
-}
-.about_section p2{
-font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 1.2px;
-}
-.about_section h3{
-    margin-left: 50px;
-}
-ul li{
-    margin-left: 90px;
-    font-size: 150%;
-}
-footer{
-    font-size: 23px;
-    margin: 50px 0;
-}
-footer p{
-    text-align: end;
-}
-body {
-    background-image: url(Images/mar_tyrs.jpg);
-    background-repeat:  no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
- 
-}
-ol{ 
-    font-size: 20px;
-    font-weight: bold;
-    
- }
-     
 
-  
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-image: url('Images/mar_tyrs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #1a1a1a;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  padding: 40px 0;
+}
+
+.hero-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero-text .ttl {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.hero-text .date {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.martyr-list ol {
+  font-size: 1.15rem;
+  color: #000000;
+}
+
+.martyr-list li {
+  margin-bottom: 15px;
+}
+
+.martyr-list a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000000;
+  transition: color 0.2s ease;
+}
+
+.martyr-list a:hover {
+  text-decoration: underline;
+  color: #d32f2f;
+}
+
+main {
+  padding: 40px 0;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin: 25px 0 10px 0;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+  text-align: justify;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.quotes-section ul {
+  list-style-type: none;
+}
+
+.quotes-section li {
+  position: relative;
+  font-style: italic;
+  font-size: 1.1rem;
+  padding: 10px 0 10px 25px;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  color: #000000;
+}
+
+footer p {
+  text-align: center;
+  color: #000000;
+  font-weight: 600;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0044cc;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #d32f2f;
+}
